@@ -1,29 +1,65 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Are Sustainable Development Conducive to Happiness?</title>
-  </head>
-  <body>
-  <h1 style="text-align: center; display: flex; align-items: center; justify-content: center;">Are Sustainable Development Conducive to Happiness?</h1>
+<head>
+    <title>Is Sustainable Development Conducive to Human Happiness?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<h1>Is Sustainable Development Conducive to Human Happiness?</h1>
 
-  <h2>1. SDG Index v.s. Happiness Score </h2>
-  <iframe width="100%" height="560" frameborder="0"
-    src="https://observablehq.com/embed/84a23b5ea9fb9066?cells=viewof+yearbar%2Cchart"></iframe>
+<!--Data Source-->
+<h2>1. Data Source</h2>
+<div style="display: flex;">
+    <img src="https://utopianouto.github.io/CSE6242Project/SDGs.png" style="width: 50%; height: auto;">
+    <img src="https://utopianouto.github.io/CSE6242Project/Happiness Report.jpeg" style="width: 50%; height: auto;">
+</div>
 
-  <h2>2. Individual SDG Index Visualizaiton</h2>
-  <iframe width="100%" height="719" frameborder="0"
-  src="https://observablehq.com/embed/b4a904ff29009e9e@126?cells=tilegrid%2Cviewof+button%2Cviewof+yearbar%2Cviewof+goalSelect"></iframe>
-  <h2> 3. Multiple regression analysis.</h2>
-  <img src="https://utopianouto.github.io/CSE6242Project/mra.png" alt="mra" width="400" height="300">
-  <h2>4. Variance Decomposition</h2>
-  <img src="https://utopianouto.github.io/CSE6242Project/vd.png" alt="vd" width="400" height="300">
-    
-  <iframe width="100%" height="584" frameborder="0"
-  src="https://observablehq.com/embed/0a81643c99074d00?cells=chart4"></iframe>
+<!--Scatter Plot-->
+<h2>2. Total SDG Index v.s. Happiness Score</h2>
 
-  <h2> TODO:</h2>
-  <iframe width="100%" height="634" frameborder="0"
-          src="https://observablehq.com/embed/@d3/stacked-to-grouped-bars?cells=viewof+layout%2Cchart"></iframe>
-  </body>
+<div style="text-align: center;">
+    <iframe width="50%" height="800" frameborder="0" src="https://observablehq.com/embed/84a23b5ea9fb9066?cells=viewof+yearbar%2Cviewof+LegendType%2Cviewof+RegionType%2Cviewof+xSelector%2Cviewof+ySelector%2Clegend%2Cchart"></iframe>
+</div>
+
+
+<!--Tile Grid Map-->
+<h2>3. World Tile Grid Map</h2>
+
+<div style="text-align: center;">
+<iframe width="100%" height="837" frameborder="0"
+        src="https://observablehq.com/embed/b4a904ff29009e9e?cells=viewof+yearbar%2Cviewof+goalSelect%2Cmylegend%2Cviewof+MapType%2Ctilegrid%2Cviewof+button"></iframe>
+</div>
+
+<!--Radar Heat Map-->
+<h2>4. Radar Heatmap</h2>
+
+<div style="display: flex; text-align: center;">
+<iframe width="50%" height="607" frameborder="0"
+        src="https://observablehq.com/embed/0a81643c99074d00?cells=viewof+country%2Cchart3"></iframe>
+<iframe width="50%" height="607" frameborder="0"
+        src="https://observablehq.com/embed/0a81643c99074d00?cells=viewof+country%2Cchart3"></iframe>
+</div>
+
+<!--coef & vif-->
+<h2>5. coef & vif</h2>
+
+<iframe width="100%" height="594" frameborder="0"
+        src="https://observablehq.com/embed/77b3240496c01c5d?cells=mychart"></iframe>
+
+
+</body>
 </html>

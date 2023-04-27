@@ -16,9 +16,21 @@
             line-height: 1.5;
             margin: 20px;
         }
-        .container{
-            margin: 20px;
-            text-align: center;
+        .container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          height: 400px;
+        }
+        .left {
+          width: 30%;
+        }
+        .center {
+          width: 40%;
+        }
+        .right {
+          width: 30%;
         }
     </style>
 </head>
@@ -75,13 +87,25 @@
 
 <!--Factor Analysis-->
 <h2>Factor Analysis</h2>
-<div style="display: flex; text-align: center;">
+<!-- <div style="display: flex; text-align: center;">
     <iframe width="30%" height="400" frameborder="0"
             src="https://utopianouto.github.io/CSE6242Project/RoseMap.html"></iframe>
     <div style="width: 40%; height: 400px; display:flex; align-items:center;">
     <img src="https://utopianouto.github.io/CSE6242Project/MRtable.png">
 </div>
     <img src="https://utopianouto.github.io/CSE6242Project/maslow.jpeg" style="width: 30%; height: 400px; object-fit: cover">
+</div> -->
+    
+<div class="container">
+  <div class="left">
+    <iframe width="100%" height="400" frameborder="0" src="https://utopianouto.github.io/CSE6242Project/RoseMap.html"></iframe>
+  </div>
+  <div class="center">
+    <img src="https://utopianouto.github.io/CSE6242Project/MRtable.png">
+  </div>
+  <div class="right">
+    <img src="https://utopianouto.github.io/CSE6242Project/maslow.jpeg">
+  </div>
 </div>
 
 

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Team002 SDGs</title>
+    <title>AI Advisor for College Major Selection</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,74 +23,14 @@
     </style>
 </head>
 <body>
-<h1>Are SDGs Conducive to Human Well-Beings?</h1>
-
-<!--Data Source-->
-<div class="container">
-<div style="display: flex;">
-    <img src="https://utopianouto.github.io/CSE6242Project/SDGs.png" style="width: 50%; height: auto;">
-    <img src="https://utopianouto.github.io/CSE6242Project/Happiness Report.jpeg" style="width: 50%; height: auto;">
-</div>
-
-<!--&lt;!&ndash;Scatter Plot&ndash;&gt;-->
-<h2>SDGs Scatter Plot</h2>
-<!--<iframe width="100%" height="920" frameborder="0"-->
-<!--        src="https://observablehq.com/embed/84a23b5ea9fb9066@388?cells=viewof+yearbar%2Cviewof+LegendType%2Cviewof+RegionType%2Cviewof+xSelector%2Cviewof+ySelector%2Clegend%2Cchart"></iframe>-->
-<iframe width="100%" height="920" frameborder="0"
-  src="https://observablehq.com/embed/ad007f344cbba412@433?cells=viewof+yearbar%2Cviewof+LegendType%2Cviewof+RegionType%2Cviewof+xSelector%2Cviewof+ySelector%2Clegend%2Cchart"></iframe>
-<!--&lt;!&ndash;Scatter Plot&ndash;&gt;-->
-<!--<h2>2. Total SDG Index v.s. Happiness Score</h2>-->
-
-<!--<div style="text-align: center;">-->
-<!--    <iframe width="50%" height="800" frameborder="0" src="https://observablehq.com/embed/84a23b5ea9fb9066?cells=viewof+yearbar%2Cviewof+LegendType%2Cviewof+RegionType%2Cviewof+xSelector%2Cviewof+ySelector%2Clegend%2Cchart"></iframe>-->
-<!--</div>-->
-
-
-<!--Tile Grid Map-->
-<h2>SDGs World Tile Grid Map</h2>
-<div style="text-align: center;">
-<iframe width="100%" height="794" frameborder="0"
-  src="https://observablehq.com/embed/b4a904ff29009e9e?cells=viewof+yearbar%2Cviewof+goalSelect%2Cmylegend%2Cviewof+MapType%2Ctilegrid"></iframe>
-</div>
-
-<!--Radar Heat Map-->
-<h2>National SDGs Heatmap</h2>
-<div style="display: flex; text-align: center; margin: 0 auto;">
-<iframe width="50%" height="607" frameborder="0"
-        src="https://observablehq.com/embed/0a81643c99074d00?cells=viewof+country%2Cchart3"></iframe>
-<iframe width="50%" height="607" frameborder="0"
-        src="https://observablehq.com/embed/0a81643c99074d00?cells=viewof+country%2Cchart3"></iframe>
-</div>
-
-<!--coef & vif-->
-<h2>Multiple Regression Analysis: Coefficients & Variance Inflation Factors</h2>
-<div style="display: flex; text-align: center;">
-<iframe width="60%" height="680" frameborder="0"
-  src="https://observablehq.com/embed/50ec6d9b3ef859c6@49?cells=viewof+yearbar%2Cviewof+type%2Ccolumn"></iframe>
-<!--<iframe width="40%" height="664" frameborder="0"-->
-<!--  src="https://observablehq.com/embed/2e3e7416d49c5bd3?cells=viewof+yearbar%2Cviewof+type%2Cmychart"></iframe>-->
-   <iframe width="40%" height="680" frameborder="0"
-  src="https://observablehq.com/embed/6dfd02f1e57d920c@100?cells=viewof+yearbar%2Cviewof+type%2Cmychart"></iframe>
-</div>
-
-<!--Factor Analysis-->
-<h2>Factor Analysis</h2>
-<!-- <div style="display: flex; text-align: center;">
-    <iframe width="30%" height="400" frameborder="0"
-            src="https://utopianouto.github.io/CSE6242Project/RoseMap.html"></iframe>
-    <div style="width: 40%; height: 400px; display:flex; align-items:center;">
-    <img src="https://utopianouto.github.io/CSE6242Project/MRtable.png">
-</div>
-    <img src="https://utopianouto.github.io/CSE6242Project/maslow.jpeg" style="width: 30%; height: 400px; object-fit: cover">
-</div> -->
-    
-<div style="display: flex; item-align: center;">
-    <iframe width="40%" height="430px" frameborder="0" src="https://utopianouto.github.io/CSE6242Project/RoseMap.html"></iframe> 
-    <img src="https://utopianouto.github.io/CSE6242Project/MRtable.png", style="width: 60%; height: 390px;">
-</div>
-
-
-</div>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger-cx/bootstrap.js?v=1"></script>
+<df-messenger
+  df-cx="true"
+  location="us-central1"
+  chat-title="AI Advisor for Major Selection"
+  agent-id="0d689fbd-f81f-4e2e-b172-f988c7163f46"
+  language-code="en"
+></df-messenger>
 
 </body>
 </html>
